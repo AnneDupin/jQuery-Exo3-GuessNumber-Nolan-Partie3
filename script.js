@@ -7,7 +7,7 @@ $('input').keypress(function() {
 });
 // Settings Random Numbers
 function random(){
-var randomNum =  Math.floor(Math.random() * 9999);
+var randomNum =  Math.floor(Math.random() * 100) +1;
    randomNum = randomNum.toString();
      while (randomNum.length < 3) {
        randomNum =  "0" + randomNum;
